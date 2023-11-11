@@ -6,6 +6,7 @@ import {HomeComponent} from "./home/home.component";
 @NgModule({
   imports: [RouterModule.forRoot([
     {path: 'privacy', component: PrivacyComponent},
+    {path: 'privacy.html', component: PrivacyComponent},
     {path: '**', component: HomeComponent}
   ])],
   exports: [RouterModule]
