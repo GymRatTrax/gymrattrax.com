@@ -1,3 +1,7 @@
 .subtitle {
   letter-spacing: 12px;
 }
+
+p, li {
+  text-align: left;
+}
