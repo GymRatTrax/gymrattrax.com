@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  gap: 1em;
+}
+
+header > img {
+  height: 4em;
+  width: 4em;
+}
+
+header > nav > ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+}
+
+.active {
+  font-weight: bold;
+}

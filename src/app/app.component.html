@@ -1,1 +1,12 @@
-<router-outlet></router-outlet>
+<header>
+  <img alt="GymRatTrax logo" src="/assets/logo.png">
+  <nav>
+    <ul>
+      <li><a routerLink='/' routerLinkActive="active" [routerLinkActiveOptions]='{ exact: true }'>GymRatTrax</a></li>
+      <li><a routerLink='/privacy' routerLinkActive='active'>Privacy Policy</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
