@@ -29,3 +29,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Update dependencies
 
 Run `ng update` to see guidance on whether a new version of Angular is available and what command to run to update to it.
+
+Run `npm outdated` to see other dependencies that need to be updated.
